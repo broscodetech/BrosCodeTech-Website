@@ -3747,3 +3747,63 @@ nav {
             0.01ms !important;
     }
 }
+
+/* =========================================================
+   PREMIUM BROSCode TECH LOGO
+========================================================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.brand-logo {
+    width: 165px;
+    height: 72px;
+
+    object-fit: contain;
+    display: block;
+
+    /* Premium subtle glow */
+    filter:
+        drop-shadow(0 0 4px rgba(234, 179, 54, 0.30)) drop-shadow(0 0 10px rgba(234, 179, 54, 0.16));
+
+    transition:
+        transform 0.35s ease,
+        filter 0.35s ease;
+}
+
+/* Premium hover effect */
+
+.logo a:hover .brand-logo {
+    transform: scale(1.035);
+
+    filter:
+        drop-shadow(0 0 6px rgba(234, 179, 54, 0.55)) drop-shadow(0 0 16px rgba(234, 179, 54, 0.28));
+}
+
+
+/* =========================================================
+   MOBILE LOGO
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .brand-logo {
+        width: 135px;
+        height: 62px;
+
+        filter:
+            drop-shadow(0 0 4px rgba(234, 179, 54, 0.28)) drop-shadow(0 0 9px rgba(234, 179, 54, 0.14));
+    }
+
+}
