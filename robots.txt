@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://broscodetech.github.io/BrosCodeTech-Website/sitemap.xml
