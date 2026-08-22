@@ -17,7 +17,6 @@
         content="Contact BrosCode Tech Solutions, Website Development, Software Development, AI Solutions, Business Automation, Digital Solutions, Start a Project">
 
     <meta name="author" content="BrosCode Tech Solutions">
-
     <meta name="robots" content="index, follow">
 
     <!-- Favicon -->
@@ -40,7 +39,6 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-
     <meta property="og:title" content="Contact Us | BrosCode Tech Solutions">
 
     <meta property="og:description"
@@ -74,7 +72,6 @@
         <nav>
 
             <!-- LOGO -->
-
             <div class="logo">
 
                 <a href="index.html">
@@ -88,7 +85,6 @@
 
 
             <!-- MOBILE MENU BUTTON -->
-
             <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
 
                 <span></span>
@@ -99,7 +95,6 @@
 
 
             <!-- NAVIGATION LINKS -->
-
             <ul class="nav-links">
 
                 <li>
@@ -145,7 +140,6 @@
     </header>
 
 
-
     <!-- =====================================================
          MAIN CONTENT
     ====================================================== -->
@@ -168,7 +162,11 @@
                     </div>
 
 
-                    <h2>
+                    <!-- IMPORTANT:
+                         THIS IS THE ONLY MAIN H1 ON THIS PAGE
+                    -->
+
+                    <h1>
 
                         Let's Build
                         <br>
@@ -178,7 +176,7 @@
 
                         <span>Great.</span>
 
-                    </h2>
+                    </h1>
 
 
                     <p>
@@ -189,7 +187,6 @@
                     </p>
 
                 </div>
-
 
 
                 <!-- =================================================
@@ -282,7 +279,6 @@
                     </div>
 
 
-
                     <!-- =================================================
                          RIGHT SIDE — FORM
                     ================================================== -->
@@ -290,16 +286,12 @@
                     <div class="contact-form-box" id="contactFormContainer">
 
 
-                        <!-- =================================================
-                             FORM
-                        ================================================== -->
+                        <!-- FORM -->
 
                         <form id="broscodeContactForm" action="https://formspree.io/f/moeapjlj" method="POST">
 
 
-                            <!-- =================================================
-                                 NAME + COMPANY
-                            ================================================== -->
+                            <!-- NAME + COMPANY -->
 
                             <div class="form-two">
 
@@ -315,12 +307,10 @@
 
                                     </label>
 
-
                                     <input type="text" id="name" name="name" placeholder="Enter your name"
                                         autocomplete="name" required>
 
                                 </div>
-
 
 
                                 <!-- COMPANY -->
@@ -333,7 +323,6 @@
 
                                     </label>
 
-
                                     <input type="text" id="company" name="company"
                                         placeholder="Company or business name" autocomplete="organization">
 
@@ -342,10 +331,7 @@
                             </div>
 
 
-
-                            <!-- =================================================
-                                 EMAIL + PHONE
-                            ================================================== -->
+                            <!-- EMAIL + PHONE -->
 
                             <div class="form-two">
 
@@ -361,12 +347,10 @@
 
                                     </label>
 
-
                                     <input type="email" id="email" name="email" placeholder="you@example.com"
                                         autocomplete="email" required>
 
                                 </div>
-
 
 
                                 <!-- PHONE -->
@@ -380,16 +364,12 @@
 
                                     </label>
 
-
                                     <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number"
                                         autocomplete="tel" inputmode="numeric" maxlength="10" minlength="10"
                                         pattern="[6-9][0-9]{9}" required>
 
-
                                     <small class="phone-help">
-
                                         Enter exactly 10 digits.
-
                                     </small>
 
                                 </div>
@@ -397,10 +377,7 @@
                             </div>
 
 
-
-                            <!-- =================================================
-                                 SERVICE + BUDGET
-                            ================================================== -->
+                            <!-- SERVICE + BUDGET -->
 
                             <div class="form-two">
 
@@ -460,15 +437,12 @@
                                 </div>
 
 
-
                                 <!-- BUDGET -->
 
                                 <div class="form-field">
 
                                     <label for="budget">
-
                                         Estimated Budget
-
                                     </label>
 
 
@@ -509,10 +483,7 @@
                             </div>
 
 
-
-                            <!-- =================================================
-                                 PROJECT MESSAGE
-                            ================================================== -->
+                            <!-- PROJECT MESSAGE -->
 
                             <div class="form-field">
 
@@ -531,18 +502,12 @@
                             </div>
 
 
-
-                            <!-- =================================================
-                                 FORMSPREE SUBJECT
-                            ================================================== -->
+                            <!-- FORMSPREE SUBJECT -->
 
                             <input type="hidden" name="_subject" value="New Project Enquiry - BrosCode Tech Solutions">
 
 
-
-                            <!-- =================================================
-                                 SUBMIT BUTTON
-                            ================================================== -->
+                            <!-- SUBMIT BUTTON -->
 
                             <button type="submit" class="contact-submit" id="contactSubmitButton">
 
@@ -557,10 +522,7 @@
                             </button>
 
 
-
-                            <!-- =================================================
-                                 FORM NOTE
-                            ================================================== -->
+                            <!-- FORM NOTE -->
 
                             <p class="contact-note">
 
@@ -570,9 +532,7 @@
                             </p>
 
 
-                            <!-- =================================================
-                                 ERROR MESSAGE
-                            ================================================== -->
+                            <!-- ERROR MESSAGE -->
 
                             <div id="formError" style="
                                     display:none;
@@ -584,16 +544,12 @@
                                     color:#ff9b9b;
                                     font-size:14px;
                                 ">
-
                             </div>
 
                         </form>
 
 
-
-                        <!-- =================================================
-                             SUCCESS MESSAGE
-                        ================================================== -->
+                        <!-- SUCCESS MESSAGE -->
 
                         <div id="formSuccess" style="
                                 display:none;
@@ -605,18 +561,19 @@
                                 padding:50px 30px;
                             ">
 
+
                             <div style="
-                                    width:64px;
-                                    height:64px;
-                                    border:1px solid rgba(225,169,55,0.45);
-                                    border-radius:50%;
-                                    display:flex;
-                                    align-items:center;
-                                    justify-content:center;
-                                    color:#e5ad35;
-                                    font-size:28px;
-                                    margin-bottom:25px;
-                                ">
+                                width:64px;
+                                height:64px;
+                                border:1px solid rgba(225,169,55,0.45);
+                                border-radius:50%;
+                                display:flex;
+                                align-items:center;
+                                justify-content:center;
+                                color:#e5ad35;
+                                font-size:28px;
+                                margin-bottom:25px;
+                            ">
 
                                 ✓
 
@@ -624,11 +581,11 @@
 
 
                             <h3 style="
-                                    font-family:'Playfair Display',serif;
-                                    font-size:42px;
-                                    margin:0 0 15px;
-                                    color:#f4efe7;
-                                ">
+                                font-family:'Playfair Display',serif;
+                                font-size:42px;
+                                margin:0 0 15px;
+                                color:#f4efe7;
+                            ">
 
                                 Thank You.
 
@@ -636,12 +593,12 @@
 
 
                             <p style="
-                                    max-width:430px;
-                                    margin:0 auto;
-                                    color:#aaa;
-                                    line-height:1.8;
-                                    font-size:16px;
-                                ">
+                                max-width:430px;
+                                margin:0 auto;
+                                color:#aaa;
+                                line-height:1.8;
+                                font-size:16px;
+                            ">
 
                                 Your project enquiry has been sent successfully.
                                 Our team will review your requirements and get
@@ -660,7 +617,6 @@
         </section>
 
     </main>
-
 
 
     <!-- =====================================================
@@ -702,7 +658,6 @@
             </div>
 
 
-
             <!-- QUICK LINKS -->
 
             <div class="footer-column">
@@ -732,7 +687,6 @@
                 </a>
 
             </div>
-
 
 
             <!-- SERVICES -->
@@ -766,7 +720,6 @@
             </div>
 
 
-
             <!-- CONTACT -->
 
             <div class="footer-column footer-contact">
@@ -777,39 +730,27 @@
 
 
                 <a href="mailto:contact@broscodetech.com">
-
                     contact@broscodetech.com
-
                 </a>
 
 
                 <a href="contact.html">
-
                     Start a Project ↗
-
                 </a>
 
 
                 <div class="footer-socials">
 
                     <a href="#" aria-label="LinkedIn">
-
                         LI
-
                     </a>
-
 
                     <a href="#" aria-label="GitHub">
-
                         GH
-
                     </a>
 
-
                     <a href="#" aria-label="Instagram">
-
                         IG
-
                     </a>
 
                 </div>
@@ -817,7 +758,6 @@
             </div>
 
         </div>
-
 
 
         <!-- COPYRIGHT -->
@@ -836,26 +776,22 @@
     </footer>
 
 
-
-    <!-- =====================================================
-         EXISTING WEBSITE JAVASCRIPT
-    ====================================================== -->
+    <!-- EXISTING WEBSITE JAVASCRIPT -->
 
     <script src="js/script.js"></script>
 
 
-
-    <!-- =====================================================
-         FORMSPREE CONTACT FORM JAVASCRIPT
-    ====================================================== -->
+    <!-- FORMSPREE CONTACT FORM JAVASCRIPT -->
 
     <script>
 
         document.addEventListener("DOMContentLoaded", function () {
 
-            const form = document.getElementById("broscodeContactForm");
+            const form =
+                document.getElementById("broscodeContactForm");
 
-            const phone = document.getElementById("phone");
+            const phone =
+                document.getElementById("phone");
 
             const submitButton =
                 document.getElementById("contactSubmitButton");
@@ -870,9 +806,7 @@
                 document.getElementById("formSuccess");
 
 
-            /* =================================================
-               PHONE — ALLOW ONLY NUMBERS
-            ================================================= */
+            /* PHONE VALIDATION */
 
             phone.addEventListener("input", function () {
 
@@ -883,9 +817,7 @@
             });
 
 
-            /* =================================================
-               FORM SUBMISSION
-            ================================================= */
+            /* FORM SUBMISSION */
 
             form.addEventListener("submit", async function (event) {
 
@@ -898,11 +830,10 @@
                 formError.textContent = "";
 
 
-                /* =================================================
-                   PHONE VALIDATION
-                ================================================= */
+                /* PHONE VALIDATION */
 
-                const phoneValue = phone.value.trim();
+                const phoneValue =
+                    phone.value.trim();
 
 
                 if (!/^[6-9][0-9]{9}$/.test(phoneValue)) {
@@ -919,9 +850,7 @@
                 }
 
 
-                /* =================================================
-                   NORMAL HTML VALIDATION
-                ================================================= */
+                /* NORMAL HTML VALIDATION */
 
                 if (!form.checkValidity()) {
 
@@ -932,9 +861,7 @@
                 }
 
 
-                /* =================================================
-                   DISABLE BUTTON
-                ================================================= */
+                /* DISABLE BUTTON */
 
                 submitButton.disabled = true;
 
@@ -948,9 +875,7 @@
                 try {
 
 
-                    /* =================================================
-                       SEND TO FORMSPREE
-                    ================================================= */
+                    /* SEND TO FORMSPREE */
 
                     const response = await fetch(
                         "https://formspree.io/f/moeapjlj",
@@ -966,9 +891,7 @@
                     );
 
 
-                    /* =================================================
-                       SUCCESS
-                    ================================================= */
+                    /* SUCCESS */
 
                     if (response.ok) {
 
@@ -983,9 +906,7 @@
                     }
 
 
-                    /* =================================================
-                       FORMSPREE ERROR
-                    ================================================= */
+                    /* FORMSPREE ERROR */
 
                     let data = {};
 
@@ -1009,9 +930,7 @@
                 } catch (error) {
 
 
-                    /* =================================================
-                       ERROR MESSAGE
-                    ================================================= */
+                    /* ERROR MESSAGE */
 
                     formError.textContent =
                         error.message ||
@@ -1020,7 +939,7 @@
                     formError.style.display = "block";
 
 
-                    /* Restore button */
+                    /* RESTORE BUTTON */
 
                     submitButton.disabled = false;
 
